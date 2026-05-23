@@ -1,0 +1,9 @@
+<group name="windows,authentication_failed,custom">
+  <rule id="100001" level="10">
+    <if_group>authentication_failed</if_group>
+    <description>Custom: Failed login attempt detected on Windows endpoint</description>
+    <mitre>
+      <id>T1110</id>
+    </mitre>
+  </rule>
+</group>
